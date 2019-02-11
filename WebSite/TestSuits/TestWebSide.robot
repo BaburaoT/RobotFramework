@@ -12,3 +12,4 @@ Open and Close Web Page
     Log To Console    Hi
     Comment    Take Screenshot Without Embedding    Babuscreen
     Take Screenshot
+    Take Screenshot
