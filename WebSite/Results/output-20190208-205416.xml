@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generated="20190208 20:54:16.445" generator="Robot 3.1 (Python 2.7.13 on win32)">
+<suite source="D:\Project\Robot\WebSite" id="s1" name="WebSite">
+<suite source="D:\Project\Robot\WebSite\TestSuits" id="s1-s1" name="TestSuits">
+<suite source="D:\Project\Robot\WebSite\TestSuits\TestWebSide.robot" id="s1-s1-s1" name="TestWebSide">
+<test id="s1-s1-s1-t1" name="Open and Close Web Page">
+<kw name="Comment" library="BuiltIn">
+<doc>Displays the given messages in the log file as keyword arguments.</doc>
+<arguments>
+<arg>Open Web Page</arg>
+</arguments>
+<status status="PASS" endtime="20190208 20:54:16.851" starttime="20190208 20:54:16.851"></status>
+</kw>
+<kw name="Comment" library="BuiltIn">
+<doc>Displays the given messages in the log file as keyword arguments.</doc>
+<arguments>
+<arg>sleep</arg>
+<arg>10</arg>
+</arguments>
+<status status="PASS" endtime="20190208 20:54:16.867" starttime="20190208 20:54:16.851"></status>
+</kw>
+<kw name="Comment" library="BuiltIn">
+<doc>Displays the given messages in the log file as keyword arguments.</doc>
+<arguments>
+<arg>Close Web page</arg>
+</arguments>
+<status status="PASS" endtime="20190208 20:54:16.867" starttime="20190208 20:54:16.867"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>Hi</arg>
+</arguments>
+<status status="PASS" endtime="20190208 20:54:16.867" starttime="20190208 20:54:16.867"></status>
+</kw>
+<kw name="Comment" library="BuiltIn">
+<doc>Displays the given messages in the log file as keyword arguments.</doc>
+<arguments>
+<arg>Take Screenshot Without Embedding</arg>
+<arg>Babuscreen</arg>
+</arguments>
+<status status="PASS" endtime="20190208 20:54:16.867" starttime="20190208 20:54:16.867"></status>
+</kw>
+<kw name="Take Screenshot" library="Screenshot">
+<doc>Takes a screenshot in JPEG format and embeds it into the log file.</doc>
+<msg timestamp="20190208 20:54:16.898" html="yes" level="INFO">&lt;a href="screenshot_1.jpg"&gt;&lt;img src="screenshot_1.jpg" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20190208 20:54:16.898" starttime="20190208 20:54:16.867"></status>
+</kw>
+<status status="PASS" endtime="20190208 20:54:16.898" critical="yes" starttime="20190208 20:54:16.851"></status>
+</test>
+<doc>This suite</doc>
+<metadata>
+<item name="Version">1.1</item>
+</metadata>
+<status status="PASS" endtime="20190208 20:54:16.898" starttime="20190208 20:54:16.492"></status>
+</suite>
+<status status="PASS" endtime="20190208 20:54:16.898" starttime="20190208 20:54:16.492"></status>
+</suite>
+<status status="PASS" endtime="20190208 20:54:16.898" starttime="20190208 20:54:16.477"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="WebSite" pass="1">WebSite</stat>
+<stat fail="0" id="s1-s1" name="TestSuits" pass="1">WebSite.TestSuits</stat>
+<stat fail="0" id="s1-s1-s1" name="TestWebSide" pass="1">WebSite.TestSuits.TestWebSide</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
