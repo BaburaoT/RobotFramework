@@ -9,3 +9,4 @@ Open Web Page
 
 Close Web page
     Close Browser
+    Close Browser
